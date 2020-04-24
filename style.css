@@ -10,7 +10,6 @@ body{
 }
 
 a{
-    text-decoration: none;
     color: #fff;
     padding: 0 10px;
 }
@@ -41,13 +40,20 @@ hr{
     clear: both;
 }
 
-button{
-    padding: 10px 17px;
-    background-color: #5c4d4d;
+.btn{
+    padding: 10px 30px;
+    background-color: #c1a57b;
     color: white;
+    font-weight: 100;
+    font-size: small;
     border: none;
     margin-top: 10px;
-    border-radius: 4px;
+    border-radius: 6px;
+}
+
+.btn:hover{
+    background-color: #d9bf77;
+    color: #fff;
 }
 
 /* Main-Header */
@@ -78,6 +84,7 @@ nav{
 
 .nav-menu ul li a:hover{
     border-bottom: solid 1px #fff;
+    color: #fff;
 }
 
 /* Header */
@@ -130,6 +137,12 @@ nav{
     transform: rotate(-15deg);
 }
 
+/* Reservations */
+#reservations .container .btn a{
+    text-decoration: none;
+    color: white;
+}
+
 /* Menu */
 /* .menu-links{
     text-align: center;
@@ -153,7 +166,6 @@ nav{
 
 /* Chef Specials */
 #chef-specials .cards-container .card{
-    background-color: rosybrown;
     display: inline-block;
     width: 33%;
 }
@@ -184,19 +196,45 @@ nav{
 /* Form */
 .form-container{
     background: white;
-    max-width: 70%;
+    max-width: 55%;
     margin: 0 auto;
-    color: #757575;
-    font-weight: 100;
     border-radius: 7px;
+    padding: 30px 0;
 }
 
-.group-form{
-    padding: 30px 120px;
+.form-group{
+    padding: 0 50px;
+    color: #5c4d4d;
+    font-weight: 100;
+    font-size: small;
+}
+
+.form-subgroup{
+    width: 49.5%;
+    display: inline-block;
+}
+
+.form-float{
+    float: right;
 }
 
 input{
+    width: 100%;
     border-radius: 5px;
-    background: #fcfcfc;
-    max-width: 100%;
+    background-color: #fcfcfc;
+    border-style: none 0.8px;
+}
+
+.form-btn{
+    padding: 10px 50px;
+}
+
+/* Contact */
+#contact{
+    margin: 80px 0px;
+    color: #5c4d4d;
+}
+
+.contact{
+    text-align: center;
 }

@@ -1,17 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<!-- Links -->
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-<link href="https://fonts.googleapis.com/css2?family=Kristi&family=Open+Sans&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="./style.css">
+    <!-- Links -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Kristi&family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
 
     <title>TASTY | Welcome</title>
 </head>
 
 <!-- Main-Header -->
+
 <body>
     <section id="main-header">
         <nav>
@@ -20,11 +22,11 @@
                 <ul>
                     <li><a href="index.html">Home</a> </li>
                     <li><a href="#about">About</a></li>
-                    <li><a href="reservations">Reservations</a></li>
-                    <li><a href="#menu">Menu</a></li>
+                    <li><a href="#reservations">Reservations</a></li>
+                    <!-- <li><a href="#menu">Menu</a></li> -->
                     <li><a href="#chef-specials">Chef Specials</a></li>
-                    <li><a href="#">Gallery</a></li>
-                    <li><a href="Reservation">Contact</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                    <!-- <li><a href="Reservation">Contact</a></li> -->
                 </ul>
             </div>
         </nav>
@@ -34,21 +36,25 @@
         </div>
     </section>
 
-<!-- Headline -->
+    <!-- Headline -->
     <section id="headline">
         <h3>The Restaurant</h3>
         <p>Welcome to The Tasty Restaurant</p>
     </section>
 
-<!-- About -->
+    <!-- About -->
     <section id="about">
         <img src="./images/food_image.jpg" alt="food_image">
-        
+
         <div class="about-text">
             <h3>WELCOME TO TASTY A JOYOUS EATERY INSPIRED BY THE SPIRIT AND CULTURE OF ITALIAN CUISINE.</h3>
             <hr>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores sit inventore dolorum tempore et ad obcaecati alias accusamus exercitationem, rerum harum illum, dicta voluptate aliquam adipisci perferendis, beatae possimus odit aut sed cumque in explicabo repudiandae? Sed fugit ullam beatae?</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis aut molestias, quis officia, ipsum molestiae odit temporibus vero magni sed nobis, ullam reiciendis voluptatum voluptas harum repellendus eius pariatur voluptates.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores sit inventore dolorum tempore et ad
+                obcaecati alias accusamus exercitationem, rerum harum illum, dicta voluptate aliquam adipisci
+                perferendis, beatae possimus odit aut sed cumque in explicabo repudiandae? Sed fugit ullam beatae?</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis aut molestias, quis officia, ipsum
+                molestiae odit temporibus vero magni sed nobis, ullam reiciendis voluptatum voluptas harum repellendus
+                eius pariatur voluptates.</p>
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
 
             <img src="./images/signature.png" alt="signature_img">
@@ -57,16 +63,15 @@
         </div>
     </section>
 
-<!-- Reservations -->
+    <!-- Reservations -->
     <section id="reservations">
         <div class="container">
             <h1>Make a Reservation</h1>
-            <p>OPENS 8:00 AM - 10:00 PM, EVERY DAY OF THE WEEK</p>
-            <button>BOOK A TABLE</button>
+            <button class="btn"><a href="#Reservation">BOOK A TABLE</a></button>
         </div>
     </section>
 
-<!-- Menu -->
+    <!-- Menu -->
     <!-- <section id="menu">
         <div class="menu-intro">
             <h3>Tasty Menu</h3>
@@ -81,7 +86,7 @@
         </div>
     </section> -->
 
-<!-- Chef Specials -->
+    <!-- Chef Specials -->
     <section id="chef-specials">
         <div class="chef-specials-intro">
             <h3>Today's Specials</h3>
@@ -96,15 +101,15 @@
                     <p class="card-text">Mango, Passion Fruit, Pineapple and Coconut All Blended with Ice.</p>
                 </div>
             </div>
-        
+
             <div class="card" style="width: 18rem;">
                 <img src="./images/food3.jpg" class="card-img-top" alt="food">
                 <div class="card-body">
-                        <h4>MUSHROOM STEAK</h4>
-                        <p class="card-text">Mango, Passion Fruit, Pineapple and Coconut All Blended with Ice.</p>
+                    <h4>MUSHROOM STEAK</h4>
+                    <p class="card-text">Mango, Passion Fruit, Pineapple and Coconut All Blended with Ice.</p>
                 </div>
             </div>
-        
+
             <div class="card" style="width: 18rem;">
                 <img src="./images/food3.jpg" class="card-img-top" alt="food">
                 <div class="card-body">
@@ -115,69 +120,81 @@
         </div>
     </section>
 
-<!-- Reservation -->
-<section id="Reservation">
-    <div class="reservation-intro">
-        <h3>Reservation</h3>
-        <p>Please choose your reservation date with specific time</p>
-    </div>
+    <!-- Reservation -->
+    <section id="Reservation">
+        <div class="reservation-intro">
+            <h3>Reservation</h3>
+            <p>Please choose your reservation date with specific time</p>
+        </div>
 
-    <div class="form-container">
-        <div class="group-form">
-            <form action="reserve.php">
-                <div class="form-group">
-                    <label for="fname">Your Name:</label>
+        <!-- Form -->
+        <form class="form-container" action="reserve.php">
+    
+            <div class="form-group">
+                <label for="fname">Your Name:</label>
+                <br>
+                <input type="text" id="first-name" required>
+            </div>
+    
+            <div class="form-group">
+                <label for="number">Your Phone:</label>
+                <br>
+                <input type="number" id="phone-number" required>
+            </div>
+    
+            <div class="form-group">
+                <label for="email">Your Email:</label>
+                <br>
+                <input type="email" id="primary-email">
+            </div>
+    
+            <div class="form-group">
+                <div class="form-subgroup">
+                    <label for="email">Number of person:</label>
                     <br>
-                    <input type="text" id="first-name">
+                    <input type="number" id="phone-number" required>
                 </div>
     
-                <div class="form-group">
-                    <label for="number">Your Phone:</label>
-                    <br>
-                    <input type="number" id="phone-number" size="100%">
-                </div>
-    
-                <div class="form-group">
-                    <label for="email">Your Email:</label>
+                <div class="form-subgroup" class="form-float">
+                    <label for="email">Type of table:</label>
                     <br>
                     <input type="email" id="primary-email">
                 </div>
+            </div>
     
-                <div class="form-group">
-                    <div class="form-group-1">
-                        <label for="email">Number of person:</label>
-                        <br>
-                        <input type="number" id="phone-number">
-                    </div>
-    
-                    <div class="form-group-1">
-                        <label for="email">Type of table:</label>
-                        <br>
-                        <input type="email" id="primary-email">
-                    </div>
+            <div class="form-group">
+                <div class="form-subgroup">
+                    <label for="date">Date:</label>
+                    <br>
+                    <input type="date" id="date" required>
                 </div>
     
-                <div class="form-group">
-                    <div class="form-group-1">
-                        <label for="date">Date:</label>
-                        <br>
-                        <input type="date" id="date">
-                    </div>
-    
-                    <div class="form-group-1">
-                        <label for="time">Time:</label>
-                        <br>
-                        <input type="time" id="time">
-                    </div>
+                <div class="form-subgroup" class="form-float">
+                    <label for="time">Time:</label>
+                    <br>
+                    <input type="time" id="time" required>
                 </div>
-                
-                <input type="submit" value="Book a Table">
-            </form>
+            </div>
+            
+            <div class="form-btn">
+                <input class="btn" type="submit" value="Book a Table" width="100%">
+            </div>
+        </form>
+    </section>
+
+    <!-- Contact -->
+    <footer id="contact">
+        <!-- <div class="map">
+            <img class="map" src="./images/map.jpg" alt="map">
+        </div> -->
+
+        <div class="contact">
+            <p>Opens Daily 8:00 AM - 10:00 PM</p>
+            <p>Lorem ipsum dolor sit amet. &copy; 2020 all rights reserved</p>
+            <!-- <i class="fab fa-instagram fa-3x"></i>
+            <i class="fab fa-facebook fa-3x"></i>
+            <i class="fab fa-twitter fa-3x"></i> -->
         </div>
-    </div>
-
-</section>
-
-<!-- Footer -->
+    </footer>
 </body>
 </html>
